@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: tan;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+#lightbulb {
+  float: left;
+  max-height: 500px;
+  margin-top: -6%;
+}
+
+h1 {
+  margin: 6% 0 1rem;
+  font-family: "Helvetica",sans-serif;
+  color: #333;
+}
+
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  outline: none !important;
+  margin-right: 15px;
+  padding: 12px 30px;
+  background: none;
+  border: solid 3px #333;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+}
+
+button:hover {
+  background: lightblue;
+}
