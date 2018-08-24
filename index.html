@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Lightbulb Switch</title>
+  <title>Degrees Calculator</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div class="container">
-    <img id="lightbulb" src="images/lightbulb-off.svg" />
-    
-    <h1>Turn the lightbulb on and off</h1>
+  <div class="custom-container">
+    <h1>Degrees Calculator</h1>
+    <p class="subtitle">Input the degrees in Kelvin and submit to see the degrees in Fahrenheit it is.</p>
 
-    <button onclick="lightbulbOn()">Turn on lightbulb</button>
-    <button onclick="lightbulbOff()">Turn off lightbulb</button>
+    <form id="calculator">
+      <input id="userInput" type="number" /><label>°F</label>
+      <button id="calculate" type="button" />Calculate</button>
+    </form>
+
+    <div class="row">
+      <div class="col-xs-6">
+        <p><strong><span id="celsius"></span> ° Celsius</strong></p>
+      </div>
+
+      <div class="col-xs-6">
+        <p><strong><span id="kelvin"></span> ° Kelvin</strong></p>
+      </div>
+    </div>
   </div>
 
   <script type="text/javascript" src="js/script.js"></script>
